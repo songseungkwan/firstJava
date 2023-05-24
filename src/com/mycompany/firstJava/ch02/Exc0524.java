@@ -12,6 +12,9 @@ public class Exc0524 {
 		boolean a=true;
 		boolean b=false;
 		
+		System.out.println(a);
+		System.out.println(b);
+		
 		int c=1;
 		int d;
 		d=2;
