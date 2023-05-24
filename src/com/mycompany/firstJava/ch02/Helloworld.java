@@ -6,17 +6,26 @@ public class Helloworld {
 		// TODO Auto-generated method stub
 
 		System.out.println("HelloWorld");
-		System.out.println("송승관");
-		System.out.println("930914");
-		System.out.println("31");
-		System.out.println("173");
-		System.out.println("73");
-		System.out.println("경기도");
-		System.out.println("김포시");
-		System.out.println("양촌읍");
-		System.out.println("123");
-		System.out.println("456");
-		System.out.println("789");
+
+		// 변수 선언 : 데이터타입 변수명;
+		// 변수 초기화 : 데이터타입 변수명=리터럴;
+		
+		
+		boolean a = true;  
+		boolean b = false; 
+		
+		int c = 1;
+		
+		int d;
+		d= 20;
+		
+		int e,f,g;
+		e= 10;
+		System.out.println("e:" +e);
+		
+		
+		System.out.println ("c:" +c);
+				
 		
 	}
 
