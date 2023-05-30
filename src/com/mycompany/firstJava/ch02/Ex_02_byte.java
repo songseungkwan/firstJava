@@ -1,6 +1,6 @@
 package com.mycompany.firstJava.ch02;
 
-public class Ex_byte {
+public class Ex_02_byte {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

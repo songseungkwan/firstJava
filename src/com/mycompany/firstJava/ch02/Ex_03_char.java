@@ -1,6 +1,6 @@
 package com.mycompany.firstJava.ch02;
 
-public class Ex_char {
+public class Ex_03_char {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,8 +9,8 @@ public class Ex_char {
 		char c2 = 65;			// 10진수
 		char c3 = '\u0041';		// 16진수
 
-		char c1_1 = "A"; 			// 오류 ""안됨
-		char c1_2 = 'AA';	// 오류  한 글자만 사용할 수 있음.
+		// char c1_1 = "A"; 		// 오류 ""안됨
+		// char c1_2 = 'AA';		// 오류  한 글자만 사용할 수 있음.
 
 
 		
@@ -24,7 +24,7 @@ public class Ex_char {
 		System.out.println("c3:" + c3);
 		
 		char c4 = '가'; 			// 문자
-		char c5 = 44032;			// 10진수
+		char c5 = 44032;		// 10진수
 		char c6 = '\uac00';		// 16진수
 
 		// char는 ""말고 ''을 쓴다.

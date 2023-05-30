@@ -1,6 +1,6 @@
 package com.mycompany.firstJava.ch02;
 
-public class boolean_ex {
+public class Ex_01_boolean {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
