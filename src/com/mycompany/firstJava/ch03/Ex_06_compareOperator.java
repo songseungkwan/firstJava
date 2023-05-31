@@ -13,7 +13,8 @@ public class Ex_06_compareOperator {
 		int b = 20;
 		
 		
-		boolean result1 = ( a==b);					// == : 같다
+		boolean result1 = ( a==b);			
+		// == : 같다
 		System.out.println("result1: "+ result1 );
 		
 		boolean result2 = (a != b);					// != : 같지 않다

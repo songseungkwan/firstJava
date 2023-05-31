@@ -12,7 +12,7 @@ public class Ex_03_if3 {
 		int a = 0;
 		
 		
-		// 입력하신 3은 짝수입니다.
+		// 입력하신 3은 짝수입니다.(트릭)
 		
 //		if (a % 2 == 0) {
 //			  System.out.println("짝수입니다.");

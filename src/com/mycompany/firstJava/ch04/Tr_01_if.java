@@ -15,73 +15,48 @@ public class Tr_01_if {
 				
 				//  97 A 93 A- 90 
 		
-		int score = 70;
-		
-		
-//		if( score >= 90 ) {
-//			System.out.println("당신의 학점은 A입니다.");
-//		} else if ( score >= 80) {
-//			System.out.println("당신의 학점은 B입니다.");
-//		} else if ( score >= 70) {
-//			System.out.println("당신의 학점은 C입니다.");
-//		} else if ( score >= 60) {
-//			System.out.println("당신의 학점은 D입니다.");
-//		} else {
-//			System.out.println("당신의 학점은 F입니다.");
-//		}
+		int score = 91;
 		
 		if(score>=90) {
-//			if(score<93) {
-//				System.out.println("당신의 학점은 A-입니다.");
-//			} else if ( score <97) {
-//				System.out.println("당신의 학점은 A입니다.");
-//			} else {
-//				System.out.println("당신은 A+입니다.");
-//			}
-//		}
 			if(score>=97) {
 				System.out.println("당신의 학점은 A+입니다.");
-			} else if(score>93 && score<97) {
+			}else if(score<97 && score>93) {
 				System.out.println("당신의 학점은 A입니다.");
-			} else {
+			}else {
 				System.out.println("당신의 학점은 A-입니다.");
 			}
-			
-		} else if(score>=80) {
+		} else if (score>=80) {
 			if(score>=87) {
 				System.out.println("당신의 학점은 B+입니다.");
-			} else if (score>83 && score < 87) {
-			System.out.println("당신의 학점은 B입니다.");
-			} else {
-				System.out.println("당신의 학점은  B-입니다.");
+			}else if(score<87 && score>83) {
+				System.out.println("당신의 학점은 B입니다.");
+			}else {
+				System.out.println("당신의 학점은 B입니다.");
 			}
-		
-		} else if(score>=70) {
+		}else if(score>=70) {
 			if(score>=77) {
 				System.out.println("당신의 학점은 C+입니다.");
-			} else if(score>73 && score<77) {
+			}else if(score<77 && score>73) {
 				System.out.println("당신의 학점은 C입니다.");
-			} else {
+			}else {
 				System.out.println("당신의 학점은 C-입니다.");
-		} 
-			
-		} else if(score>=60) {
+			}
+		}else if(score>=60) {
 			if(score>=67) {
 				System.out.println("당신의 학점은 D+입니다.");
-			} else if (score>63 && score<67) {
+			}else if(score<67 && score>63) {
 				System.out.println("당신의 학점은 D입니다.");
-			} else {
+			}else {
 				System.out.println("당신의 학점은 D-입니다.");
 			}
-			
 		} else {
-			System.out.println("당신은 F입니다.");
+			System.out.println("당신의 학점은 F입니다.");
+		
+			
+			
+			
+			
 		}
-			
-			
-			
-			
-			
 		
 		
 		

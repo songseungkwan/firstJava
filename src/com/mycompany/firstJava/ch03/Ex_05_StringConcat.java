@@ -22,8 +22,9 @@ public class Ex_05_StringConcat {
 		System.out.println("stringVal4: " + stringVal4);
 		
 		double b = 1.11;
-		double stringVal5 = stringVal + b;
-		System.out.println("stringVal5: " + stringVal);
+		String
+		stringVal5 = stringVal + b;
+		System.out.println("stringVal5: " + stringVal5);
 		
 		
 		

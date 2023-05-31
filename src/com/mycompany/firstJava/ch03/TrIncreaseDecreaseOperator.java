@@ -32,14 +32,10 @@ public class TrIncreaseDecreaseOperator {
 		
 		--i;                  // i = 1
 		int z = ++i + j++;    // i=2 , z=2+2=4 , j=2+1=3
+		
 		System.out.println("i: " + i);
 		System.out.println("j: " + j);
 		System.out.println("z: " + z);
-		
-		
-		
-		
-		
 		
 		
 		int a = 1;
