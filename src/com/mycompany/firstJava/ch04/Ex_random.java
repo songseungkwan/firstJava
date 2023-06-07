@@ -8,7 +8,11 @@ public class Ex_random {
 		
 		int min = 1;
 		int max = 45;
-		int random = (int)((Math.random() * (max-min)) + min);
+		
+		
+		// int random = ((Math.random() * (max-min)) + min);  		// casting 필요	
+		
+		int random = (int)((Math.random() * (max-min)) + min);				// math :jdk의 기능
 		System.out.println("random: " + random);
 		
 		

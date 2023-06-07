@@ -10,12 +10,7 @@ public class Ex_03_char {
 		char c3 = '\u0041';		// 16진수
 
 		// char c1_1 = "A"; 		// 오류 ""안됨
-		// char c1_2 = 'AA';		// 오류  한 글자만 사용할 수 있음.
-
-
-		
-		
-		
+		// char c1_2 = 'AA';		// 오류  한 글자만 사용할 수 있음.		
 		// char는 ""말고 ''을 쓴다.
 		
 		
@@ -27,7 +22,7 @@ public class Ex_03_char {
 		char c5 = 44032;		// 10진수
 		char c6 = '\uac00';		// 16진수
 
-		// char는 ""말고 ''을 쓴다.
+
 		
 		
 		System.out.println("c4:" + c4);
