@@ -23,7 +23,7 @@ public class Ex_02_ArrayInArray {
 		
 		// kor,eng,math 과목별 총합과 평균.
 		// 사람별 총합과 평균.
-asd  
+asd    
 		
 
 		
